@@ -1,0 +1,20 @@
+.note-container{
+    height: 100%;
+}
+.note-container h2{
+    margin-bottom: 20px;
+    color: brown;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    align-items: center;
+
+}
+.note-container_notes{
+    display: flex;
+    height: 90%;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+    font-family: 'Indie Flower', cursive;
+
+}
