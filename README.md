@@ -20,7 +20,7 @@ NoteTakingApp offers a range of features to enhance your daily life:
 
 
 - **User-Friendly Design**: Created a feature-rich note-making web-application using ReactJS, HTML, and CSS
-- Implemented debouncing to optimize text updates in the note taking app, enhancing user experience during note editing
+- Implemented debouncing to optimize text updates in the app, enhancing user experience during note editing
 - Elevated user experience by integrating feature for infinite notes, diverse colors, and chronological markers
 - The website's intuitive design ensures that users of all technical backgrounds can easily navigate and find what they need.
 

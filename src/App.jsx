@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Header from "./Components/Header";
-
-
 import NoteContainer from "./Components/NoteContainer/NoteContainer";
 import Sidebar from "./Components/Sidebar/Sidebar";
 
 
 import "./App.css";
+
 
 function App() {
   const [notes, setNotes] = useState(
@@ -57,6 +56,7 @@ function App() {
       deleteNote={deleteNote} 
       updateText = {updateText}
       />
+     
 
     </div>
   );
