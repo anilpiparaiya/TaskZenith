@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from "react";
+import Header from "./Components/Header";
+
 
 import NoteContainer from "./Components/NoteContainer/NoteContainer";
 import Sidebar from "./Components/Sidebar/Sidebar";
+
 
 import "./App.css";
 
@@ -47,12 +50,14 @@ function App() {
   }, [notes]);
   return (
     <div className="App">
+      <Header />
       <Sidebar addNote={addNote} />
       <NoteContainer 
       notes={notes} 
       deleteNote={deleteNote} 
       updateText = {updateText}
       />
+
     </div>
   );
 }
