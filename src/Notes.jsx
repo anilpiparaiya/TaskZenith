@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Header from "./Components/Header";
-import NoteContainer from "./Components/NoteContainer/NoteContainer";
-import Sidebar from "./Components/Sidebar/Sidebar";
+import NoteContainer from "./components/NoteContainer/NoteContainer";
+import Sidebar from "./components/Sidebar/Sidebar";
 
 
 import "./App.css";
@@ -49,7 +48,7 @@ function App() {
   }, [notes]);
   return (
     <div className="App">
-      <Header />
+      
       <Sidebar addNote={addNote} />
       <NoteContainer 
       notes={notes} 
