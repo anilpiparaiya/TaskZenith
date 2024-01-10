@@ -4,7 +4,7 @@ import icon from "../../assets/icon.png"
 import logomark from "../../assets/logomark.svg"
 export default function Header() {
     return (
-        <header className="shadow sticky z-50 p-4 fixed top-0 w-full">
+        <header className="shadow sticky z-50 top-0 w-full">
             <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
