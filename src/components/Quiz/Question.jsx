@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import "./Quiz.css";
 import QuestionTimer from './QuestionTimer.jsx';
 import Answers from './Answers.jsx';
 import QUESTIONS from '../../questions.js';

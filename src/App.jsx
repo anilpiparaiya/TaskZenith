@@ -1,15 +1,17 @@
-import Header from './components/Quiz/Header.jsx';
-import Quiz from './components/Quiz/Quiz.jsx';
+// import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-function App() {
-  return (
-    <>
-      <Header />
-      <main>
-        <Quiz />
-      </main>
-    </>
-  );
-}
+// import WelcomePage from './pages/Welcome.jsx';
+// import ChallengesPage from './pages/Challenges.jsx';
+// import QuizPage from './pages/QuizPage.jsx';
 
-export default App;
+// const router = createBrowserRouter([
+//   // { path: '/', element: <WelcomePage /> },
+//   // { path: '/challenges', element: <ChallengesPage /> },
+//   { path: '/', element: <QuizPage /> },
+// ]);
+
+// function App() {
+//   return <RouterProvider router={router} />;
+// }
+
+// export default App;

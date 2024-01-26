@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import NoteContainer from "./components/NoteContainer/NoteContainer";
 import Sidebar from "./components/Sidebar/Sidebar";
 
 
-import "./App.css";
+import "./Notes.css";
 
 
 function App() {

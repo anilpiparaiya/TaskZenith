@@ -16,9 +16,12 @@ import Contact from "./components/Contact/Contact.jsx";
 import User from "./components/User/User.jsx";
 import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
 import Projects from "./components/Projects/Projects.jsx";
-import App from "./App.jsx";
+
 import Task from "./Task.jsx";
-import Calculator from "./Calculator.jsx";
+import Calculator from "./pages/Calculator.jsx";
+import QuizPage from "./pages/QuizPage.jsx";
+import WelcomePage from './pages/Welcome.jsx';
+import ChallengesPage from './pages/Challenges.jsx';
 
 
 
@@ -49,9 +52,12 @@ import Calculator from "./Calculator.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="" element={<Home />} />
+      <Route path="" element={<WelcomePage />} />
+      <Route path="/challenges" element={<ChallengesPage />} />
+
+      {/* <Route path="" element={<Home />} /> */}
       <Route path="notes" element={<Notes />} />
-      <Route path="quiz" element={<App />} />
+      <Route path="quiz" element={<QuizPage />} />
       <Route path="task" element={<Task />} />
       <Route path="investment" element={<Calculator />} />
       <Route path="projects" element={<Projects />} />
@@ -68,3 +74,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
+
+
+// import React from 'react'
+// import ReactDOM from 'react-dom/client'
+// import App from './App.jsx'
+// import './index.css'
+
+// ReactDOM.createRoot(document.getElementById('root')).render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+// )

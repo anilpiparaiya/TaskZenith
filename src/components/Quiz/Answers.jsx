@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-
+import "./Quiz.css";
 export default function Answers({
   answers,
   selectedAnswer,

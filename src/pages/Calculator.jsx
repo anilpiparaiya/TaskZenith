@@ -1,8 +1,8 @@
 import { useState } from 'react';
 
-import Header from './components/Invest/Header.jsx';
-import UserInput from './components/Invest/UserInput.jsx';
-import Results from './components/Invest/Results.jsx';
+import Header from '../components/Invest/Header.jsx';
+import UserInput from '../components/Invest/UserInput.jsx';
+import Results from '../components/Invest/Results.jsx';
 
 function Calculator() {
   const [userInput, setUserInput] = useState({

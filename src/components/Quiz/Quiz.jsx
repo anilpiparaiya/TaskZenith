@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-
+import "./Quiz.css";
 import QUESTIONS from '../../questions.js';
 import Question from './Question.jsx';
 import Summary from './Summary.jsx';

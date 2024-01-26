@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import "./Quiz.css";
 export default function QuestionTimer({ timeout, onTimeout, mode }) {
   const [remainingTime, setRemainingTime] = useState(timeout);
 
