@@ -55,7 +55,7 @@ const router = createBrowserRouter(
       <Route path="" element={<WelcomePage />} />
       <Route path="/challenges" element={<ChallengesPage />} />
 
-      {/* <Route path="" element={<Home />} /> */}
+      <Route path="home" element={<Home />} /> 
       <Route path="notes" element={<Notes />} />
       <Route path="quiz" element={<QuizPage />} />
       <Route path="task" element={<Task />} />
