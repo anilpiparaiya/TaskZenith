@@ -1,5 +1,5 @@
-import './Task.css';
-import { TodoWrapper } from './components/Todo/TodoWrapper';
+import '../components/Todo/Task.css';
+import { TodoWrapper } from '../components/Todo/TodoWrapper';
 
 function Task() {
   return (

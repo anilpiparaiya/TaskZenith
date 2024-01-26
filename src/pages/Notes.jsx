@@ -1,10 +1,6 @@
 import { useEffect, useState } from "react";
-import NoteContainer from "./components/NoteContainer/NoteContainer";
-import Sidebar from "./components/Sidebar/Sidebar";
-
-
-import "./Notes.css";
-
+import NoteContainer from "../components/NoteContainer/NoteContainer";
+import Sidebar from "../components/Sidebar/Sidebar";
 
 function App() {
   const [notes, setNotes] = useState(
