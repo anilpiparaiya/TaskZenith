@@ -15,7 +15,7 @@ export default function Header() {
           TaskZenith
         </span>
       </Link>
-      <form>
+      {/* <form>
         <TextInput
           type="text"
           placeholder="Search..."
@@ -25,7 +25,7 @@ export default function Header() {
       </form>
       <Button className="w-12 h-10 lg:hidden" color="gray" pill>
         <AiOutlineSearch />
-      </Button>
+      </Button> */}
       <div className="flex gap-2 md:order-2">
         <Button className="w-12 h-10 hidden sm:inline" color="gray" pill>
           <FaMoon />
@@ -56,25 +56,10 @@ export default function Header() {
           <Link to="/notes">Notes</Link>
         </Navbar.Link>
 
-
-
-        <Navbar.Link active={path === "/task"} as={"div"}>
-          <Link to="/task">Task</Link>
-        </Navbar.Link>
-
         <Navbar.Link active={path === "/quiz"} as={"div"}>
           <Link to="/quiz">Quiz</Link>
         </Navbar.Link>
 
-        <Navbar.Link active={path === "/github"} as={"div"}>
-          <Link to="/github">Github</Link>
-        </Navbar.Link>
-
-        {/* <Navbar.Link active={path === "/contact"} as={'div'}>
-          <Link to='/contact'>Contact</Link>
-        </Navbar.Link> */}
-
-        
       </Navbar.Collapse>
     </Navbar>
   );
