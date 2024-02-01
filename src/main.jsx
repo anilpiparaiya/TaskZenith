@@ -16,9 +16,6 @@
 // import User from "./components/User/User.jsx";
 // import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
 // import Projects from "./components/Projects/Projects.jsx";
-
-// import Task from "./Task.jsx";
-// import Calculator from "./pages/Calculator.jsx";
 // import QuizPage from "./pages/QuizPage.jsx";
 // import WelcomePage from './pages/Welcome.jsx';
 // import ChallengesPage from './pages/Challenges.jsx';
