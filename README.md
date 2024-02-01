@@ -1,6 +1,6 @@
-# Note Taking App using React- Your Everyday Lifestyle Companion
+# TaskZenith- Your Everyday Lifestyle Companion
 
-Which is designed to manage and serve common people's note-making. This user-friendly platform is built using React, making it easily accessible to anyone with an internet connection.
+Which is designed to manage and serve common people. This user-friendly platform is built using React, making it easily accessible to anyone with an internet connection.
 
 You can find the live project on this link 👉
 [https://anilpiparaiyanotesapp.netlify.app/](https://anilpiparaiyanotesapp.netlify.app/)
@@ -28,16 +28,16 @@ NoteTakingApp offers a range of features to enhance your daily life:
 
 ## Getting Started
 
-To get started with NoteTakingApp, follow these simple steps:
+To get started with TaskZenith, follow these simple steps:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/anilpiparaiya/NoteTakingApp.git
+   git clone https://github.com/anilpiparaiya/TaskZenith.git
    ```
 
 2. Navigate to the project folder:
    ```bash
-   cd NoteTakingApp
+   cd TaskZenith
    ```
 
 3. `npm run dev`
@@ -47,7 +47,7 @@ To get started with NoteTakingApp, follow these simple steps:
 
 ## Usage
 
-NoteTakingApp is straightforward to use. Once you've opened the website in your web browser, you can:
+TaskZenith is straightforward to use. Once you've opened the website in your web browser, you can:
 
 - Make notes by clicking on the respective sections in the navigation menu.
 - Click on individual articles or resources to view the full content.
@@ -56,7 +56,7 @@ NoteTakingApp is straightforward to use. Once you've opened the website in your 
 
 ## Contributing
 
-We welcome contributions to improve and expand NoteTakingApp! If you have suggestions, bug reports, or want to contribute code, please follow these steps:
+We welcome contributions to improve and expand TaskZenith! If you have suggestions, bug reports, or want to contribute code, please follow these steps:
 
 1. Fork this repository.
 2. Create a new branch for your feature or bugfix:
@@ -79,7 +79,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Thank you for using NoteTakingApp, your go-to website for everyday lifestyle needs. If you have any questions or feedback, please feel free to reach out to us at [anilkumarpiparaiya@gmail.com](mailto:anilkumarpiparaiya@gmail.com). Enjoy your journey to a better and more informed lifestyle!
+Thank you for using TaskZenith, your go-to website for everyday lifestyle needs. If you have any questions or feedback, please feel free to reach out to us at [anilkumarpiparaiya@gmail.com](mailto:anilkumarpiparaiya@gmail.com). Enjoy your journey to a better and more informed lifestyle!
 
 
 
