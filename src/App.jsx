@@ -11,6 +11,7 @@ import QuizPage from './pages/QuizPage.jsx';
 import Header from './components/Header/Header.jsx'
 import Notes from './pages/Notes.jsx'
 import Github, { githubInfoLoader } from "./components/Github/Github.jsx";
+import Contact from './components/Contact/Contact.jsx'
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="" element={<WelcomePage />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
@@ -29,6 +31,7 @@ export default function App() {
         <Route path="notes" element={<Notes />} />
         <Route path="quiz" element={<QuizPage />} />
         <Route loader={githubInfoLoader} path="github" element={<Github />} />
+
         
       </Routes>
         
