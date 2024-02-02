@@ -1,7 +1,13 @@
 import { Button, Label, TextInput } from "flowbite-react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function SignUp() {
+  const [formData, setFormData] = useState({});
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+  console.log(formData);
   return (
     <div className="min-h-screen mt-20">
       <div
@@ -30,17 +36,32 @@ export default function SignUp() {
           <form className="flex flex-col gap-4">
             <div className="">
               <Label value="Your username"></Label>
-              <TextInput type="text" placeholder="Username" id="username" />
+              <TextInput
+                type="text"
+                placeholder="Username"
+                id="username"
+                onChange={handleChange}
+              />
             </div>
 
             <div className="">
               <Label value="Your email"></Label>
-              <TextInput type="text" placeholder="name@example.com" id="email" />
+              <TextInput
+                type="text"
+                placeholder="name@example.com"
+                id="email"
+                onChange={handleChange}
+              />
             </div>
 
             <div className="">
               <Label value="Your password"></Label>
-              <TextInput type="text" placeholder="Password" id="password" />
+              <TextInput
+                type="password"
+                placeholder="Password"
+                id="password"
+                onChange={handleChange}
+              />
             </div>
 
             <Button gradientDuoTone="purpleToPink" type="submit">
@@ -50,7 +71,7 @@ export default function SignUp() {
 
           <div className="flex gap-2 text-sm mt-5">
             <span>Have an account?</span>
-            <Link to="sign-in" className="text-blue-500">
+            <Link to="/sign-in" className="text-blue-500">
               Sign In
             </Link>
           </div>
