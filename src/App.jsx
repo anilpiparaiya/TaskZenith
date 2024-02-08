@@ -10,6 +10,7 @@ import QuizPage from './pages/QuizPage.jsx';
 import Header from './components/Header/Header.jsx'
 import Notes from './pages/Notes.jsx'
 import Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 
 export default function App() {
@@ -27,9 +28,8 @@ export default function App() {
         <Route path="/challenges" element={<ChallengesPage />} />
         <Route path="notes" element={<Notes />} />
         <Route path="quiz" element={<QuizPage />} />
-        
       </Routes>
-        
+        <Footer />
     </BrowserRouter>
   )
 }
