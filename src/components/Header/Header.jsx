@@ -81,17 +81,16 @@ export default function Header() {
           <Link to="/projects">Projects</Link>
         </Navbar.Link>
 
-
         <Navbar.Link active={path === "/challenges"} as={"div"}>
           <Link to="/challenges">Challenge</Link>
         </Navbar.Link>
 
-        <Navbar.Link active={path === "/codeforces-stats"} as={"div"}>
-          <Link to="/codeforces-stats">Codeforces</Link>
-        </Navbar.Link>
-
         <Navbar.Link active={path === "/notes"} as={"div"}>
           <Link to="/notes">Notes</Link>
+        </Navbar.Link>
+
+        <Navbar.Link active={path === "/codeforces-stats"} as={"div"}>
+          <Link to="/codeforces-stats">CF Stats</Link>
         </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
