@@ -1,10 +1,7 @@
 # TaskZenith- Your Everyday Lifestyle Companion
 
 Which is designed to manage and serve common people. This user-friendly platform is built using React, making it easily accessible to anyone with an internet connection.
-
 You can find the live project on this link 👉
-[https://anilpiparaiyanotesapp.netlify.app/](https://anilpiparaiyanotesapp.netlify.app/)
-
 
 ## Table of Contents
 
@@ -16,14 +13,12 @@ You can find the live project on this link 👉
 
 ## Features
 
-NoteTakingApp offers a range of features to enhance your daily life:
+TaskZenith offers a range of features to enhance your daily life with User-Friendly Design:
 
-
-- **User-Friendly Design**: Created a feature-rich note-making web-application using ReactJS, HTML, and CSS
+- Created a feature-rich note-making web-application using React, Tailwind CSS, Node.js
 - Implemented debouncing to optimize text updates in the app, enhancing user experience during note editing
 - Elevated user experience by integrating feature for infinite notes, diverse colors, and chronological markers
 - The website's intuitive design ensures that users of all technical backgrounds can easily navigate and find what they need.
-
 
 
 ## Getting Started
@@ -39,11 +34,9 @@ To get started with TaskZenith, follow these simple steps:
    ```bash
    cd TaskZenith
    ```
+3. `npm install`
 
-3. `npm run dev`
-
-4. Runs the app in the development mode. Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser.
-
+4. `npm run dev` Runs the app in the development mode. Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser.
 
 ## Usage
 
@@ -52,7 +45,6 @@ TaskZenith is straightforward to use. Once you've opened the website in your web
 - Make notes by clicking on the respective sections in the navigation menu.
 - Click on individual articles or resources to view the full content.
 - Enjoy interactive User Interface to entertain yourself.
-- Share your favorite articles and content with friends and family via social media links.
 
 ## Contributing
 
