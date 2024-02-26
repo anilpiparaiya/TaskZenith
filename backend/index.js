@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import userRoutes from "./routes/user.route.js";
 import authRoutes from "./routes/auth.route.js";
 import booksRoute from './routes/booksRoute.js';
+import cors from 'cors';
 dotenv.config();
 
 const app = express();
@@ -13,14 +14,13 @@ const app = express();
 app.use(express.json());
 
 // Middleware for handling CORS POLICY
-// app.use(cors());
+ app.use(cors());
 
 app.get('/', (request, response) => {
   console.log(request);
   return response.status(234).send('Welcome To TaskZenith');
 });
 
-app.use('/api/books', booksRoute);
 
 mongoose
   .connect(process.env.MONGODB_URI)
@@ -38,6 +38,8 @@ mongoose
 
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
+app.use('/api/books', booksRoute);
+
 
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;

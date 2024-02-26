@@ -12,7 +12,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import PrivateRoute from './components/Header/PrivateRoute.jsx';
 import BookNotes from "./components/BookNotes/BookNotes.jsx";
 import BookHome from './pages/books/Home';
-import CreateBook from './pages/books/CreateBooks.jsx';
+import CreateBook from './pages/books/CreateBooks';
 import ShowBook from './pages/books/ShowBook';
 import EditBook from './pages/books/EditBook';
 import DeleteBook from './pages/books/DeleteBook';
