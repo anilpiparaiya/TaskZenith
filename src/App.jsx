@@ -9,9 +9,13 @@ import ChallengesPage from "./pages/Challenges.jsx";
 import Header from "./components/Header/Header.jsx";
 import Notes from "./pages/Notes.jsx";
 import Footer from "./components/Footer/Footer.jsx";
-import Codeforces from "./pages/Codeforces.jsx";
 import PrivateRoute from './components/Header/PrivateRoute.jsx';
 import BookNotes from "./components/BookNotes/BookNotes.jsx";
+import BookHome from './pages/books/Home';
+import CreateBook from './pages/books/CreateBooks.jsx';
+import ShowBook from './pages/books/ShowBook';
+import EditBook from './pages/books/EditBook';
+import DeleteBook from './pages/books/DeleteBook';
 export default function App() {
   return (
     <BrowserRouter>
@@ -27,8 +31,13 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/challenges" element={<ChallengesPage />} />
         <Route path="notes" element={<Notes />} />
-        <Route path="codeforces-stats" element={<Codeforces />} />
         <Route path="booknotes" element={<BookNotes />} />
+
+      <Route path='/books' element={<BookHome />} />
+      <Route path='/books/create' element={<CreateBook />} />
+      <Route path='/books/details/:id' element={<ShowBook />} />
+      <Route path='/books/edit/:id' element={<EditBook />} />
+      <Route path='/books/delete/:id' element={<DeleteBook />} />
 
       </Routes>
       <Footer />
