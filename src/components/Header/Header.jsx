@@ -74,6 +74,10 @@ export default function Header() {
           <Link to="/home">Home</Link>
         </Navbar.Link>
 
+        <Navbar.Link active={path === "/books"} as={"div"}>
+          <Link to="/books">Books</Link>
+        </Navbar.Link>
+
         <Navbar.Link active={path === "/booknotes"} as={"div"}>
           <Link to="/booknotes">Books Note</Link>
         </Navbar.Link>
@@ -89,9 +93,8 @@ export default function Header() {
           <Link to="/notes">Notes</Link>
         </Navbar.Link>
 
-        <Navbar.Link active={path === "/codeforces-stats"} as={"div"}>
-          <Link to="/codeforces-stats">CF Stats</Link>
-        </Navbar.Link>
+        
+
       </Navbar.Collapse>
     </Navbar>
   );
