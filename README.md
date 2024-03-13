@@ -1,7 +1,7 @@
 # TaskZenith- Your Everyday Lifestyle Companion
 
 Which is designed to manage and serve common people. This user-friendly platform is built using React, making it easily accessible to anyone with an internet connection.
-You can find the live project on this link 👉
+You can find the live project on this link 👉 [https://task-zenith.vercel.app/](https://task-zenith.vercel.app/)
 
 ## Table of Contents
 
