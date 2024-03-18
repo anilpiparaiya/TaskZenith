@@ -17,6 +17,7 @@ import ShowBook from "./pages/books/ShowBook";
 import EditBook from "./pages/books/EditBook";
 import DeleteBook from "./pages/books/DeleteBook";
 import PlacePicker from "./pages/PlacePicker.jsx";
+import WikipediaSearch from "./components/WikipediaSearch/WikipediaSearch.jsx"
 export default function App() {
   return (
     <BrowserRouter>
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/books/edit/:id" element={<EditBook />} />
         <Route path="/books/delete/:id" element={<DeleteBook />} />
         <Route path="/places" element={<PlacePicker />} />
+        <Route path="/wikipedia-search" element={<WikipediaSearch />} />
       </Routes>
       <Footer />
     </BrowserRouter>
