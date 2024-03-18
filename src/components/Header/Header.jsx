@@ -96,6 +96,10 @@ export default function Header() {
         <Navbar.Link active={path === "/places"} as={"div"}>
           <Link to="/places">Places</Link>
         </Navbar.Link>
+
+        <Navbar.Link active={path === "/wikipedia-search"} as={"div"}>
+          <Link to="/wikipedia-search">Wikipedia Search</Link>
+        </Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );
