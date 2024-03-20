@@ -31,8 +31,7 @@ export default function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/challenges" element={<ChallengesPage />} />
         <Route path="notes" element={<Notes />} />
-        <Route path="booknotes" element={<BookNotes />} />
-
+        <Route path="search-book" element={<BookNotes />} />
         <Route path="/books" element={<BookHome />} />
         <Route path="/books/create" element={<CreateBook />} />
         <Route path="/books/details/:id" element={<ShowBook />} />
