@@ -4,7 +4,6 @@ import SignIn from "./pages/SignIn";
 import Dashboard from "./pages/Dashboard";
 import Projects from "./pages/Projects";
 import SignUp from "./pages/SignUp";
-import WelcomePage from "./pages/Welcome.jsx";
 import ChallengesPage from "./pages/Challenges.jsx";
 import Header from "./components/Header/Header.jsx";
 import Notes from "./pages/Notes.jsx";
@@ -23,7 +22,6 @@ export default function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="" element={<WelcomePage />} />
         <Route path="/home" element={<Home />} />
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
