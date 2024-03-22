@@ -9,7 +9,7 @@ import Header from "./components/Header/Header.jsx";
 import Notes from "./pages/Notes.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import PrivateRoute from "./components/Header/PrivateRoute.jsx";
-import BookNotes from "./components/BookNotes/BookNotes.jsx";
+import BookNotes from "./components/BookSearch/Book.jsx";
 import BookHome from "./pages/books/Home";
 import CreateBook from "./pages/books/CreateBooks";
 import ShowBook from "./pages/books/ShowBook";

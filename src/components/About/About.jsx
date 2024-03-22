@@ -1,5 +1,5 @@
 import React from "react";
-export default function BookNotes() {
+export default function About() {
   return (
     <div className="py-16 bg-white">
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
