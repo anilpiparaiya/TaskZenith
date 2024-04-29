@@ -94,6 +94,10 @@ export default function Header() {
           <Link to="/places">Places</Link>
         </Navbar.Link>
 
+        <Navbar.Link active={path === "/password-generator"} as={"div"}>
+          <Link to="/password-generator">Password Generator</Link>
+        </Navbar.Link>
+
         <Navbar.Link active={path === "/wikipedia-search"} as={"div"}>
           <Link to="/wikipedia-search">Wikipedia Search</Link>
         </Navbar.Link>
